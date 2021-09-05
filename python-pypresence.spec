@@ -13,13 +13,11 @@ BuildArch:      noarch
 BuildRequires:  pkgconfig(python)
 BuildRequires:  python3dist(setuptools)
 
-Requires: python3dist(qtpy)
 
 %{?python_provide:%python_provide python3-%{module}}
 
 %description
-QtAwesome enables iconic fonts such as Font Awesome and Elusive
-Icons in PyQt and PySide applications.
+A complete Discord IPC and Rich Presence wrapper library in Python!
 
 #----------------------------------------------------
 
