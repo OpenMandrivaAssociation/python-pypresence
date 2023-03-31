@@ -2,7 +2,7 @@
 
 Name:           python-%{module}
 Version:        4.2.1
-Release:        1
+Release:        2
 Summary:        A complete Discord RPC and Rich Presence wrapper library in Python
 Group:          Development/Python
 License:        BSD 3-Clause
