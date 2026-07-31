@@ -1,8 +1,8 @@
 %define module    pypresence
 
 Name:           python-%{module}
-Version:        4.3.0
-Release:        2
+Version:        4.6.2
+Release:        1
 Summary:        A complete Discord RPC and Rich Presence wrapper library in Python
 Group:          Development/Python
 License:        BSD 3-Clause
@@ -22,7 +22,7 @@ A complete Discord IPC and Rich Presence wrapper library in Python!
 #----------------------------------------------------
 
 %prep
-%autosetup -n %{module}-%{version}
+%autosetup -n pypresence-4.6.2
 
 %build
 %py_build
